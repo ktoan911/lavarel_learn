@@ -1,0 +1,27 @@
+***TEST setter getter***
+
+> $u = User::find(1);
+[!] Aliasing 'User' to 'App\Models\User' for this Tinker session.
+= App\Models\User {#6184
+    id: 1,
+    email: "toan@example.com",
+    email_verified_at: "2025-07-28 05:34:03",
+    #password: "$2y$12$B/HbTNeQ.PQYEmrl8h1dS.GEzwIN2iQ4401CTVYHc9.qNXIMajxBa",
+    #remember_token: "eqE0IYxBtq",
+    created_at: "2025-07-28 05:34:03",
+    updated_at: "2025-07-28 05:34:03",
+    first_name: "Toan",
+    last_name: "Nguyen",
+    username: "toan123",
+    is_admin: 0,
+    is_active: 1,
+  }
+
+> $u->username = 'test user'
+= "test user"
+
+> $u->username;
+= "test-user"
+
+> $u->save();
+= true
