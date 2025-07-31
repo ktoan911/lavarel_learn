@@ -1,0 +1,14 @@
+{
+  "name": "template-bower-example",
+  "homepage": "https://github.com/ktoan911/template-bower-example",
+  "_release": "8765e06097",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8765e060972c5a67526a7ec96642b1eb90e8b9b3"
+  },
+  "_source": "https://github.com/ktoan911/template-bower-example.git",
+  "_target": "*",
+  "_originalSource": "ktoan911/template-bower-example",
+  "_direct": true
+}
