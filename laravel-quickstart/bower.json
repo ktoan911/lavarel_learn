@@ -1,0 +1,20 @@
+{
+  "name": "laravel-quickstart",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nguyen Khanh Toan <khanhtoan.forwork@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ktoan911/lavarel_learn",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "template-bower-example": "ktoan911/template-bower-example"
+  }
+}
